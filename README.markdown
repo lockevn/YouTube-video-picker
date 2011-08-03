@@ -18,9 +18,8 @@ This is my pet project, idea base on something I did for my company plugin.
 **LockeVN** at gmail dot com
 
 # Demo and Usage
-* Download code, open index.htm file to view demo. Voila!
-* Type something in the search box, press Search. The playlist will appear. Select your item you want to preview.
-* I comment my code and make every line as much easy as possible. I believe you can easily use/customize my plugin without any problem.
+Open index.htm file to view demo.
+I comment my code and make every line as much easy as possible. I believe you can easily use/customize my plugin without any problem.
 
 # Credit
 * Months ago, I took a look at this plugin [https://github.com/dan0/youtubeplaylist]. It's nice, but different style of code from me. There are some similar pieces of code, *but my plugin is my own code, honestly*.

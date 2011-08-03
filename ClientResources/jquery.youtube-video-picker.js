@@ -301,7 +301,7 @@
                 var AutoPlay = "";
                 var ShowRelated = "&rel=0";
                 var fullScreen = "";
-                if (options.AutoPlay) AutoPlay = "&AutoPlay=1";
+                if (options.AutoPlay) AutoPlay = "&autoplay=1";
                 if (options.ShowRelated) ShowRelated = "&rel=1";
                 if (options.AllowFullScreen) fullScreen = "&fs=1";
 
