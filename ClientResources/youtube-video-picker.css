@@ -1,0 +1,62 @@
+div, ul, li
+{margin:0;padding:0;}
+
+label
+{
+    width: 180px;
+    display: inline-block;
+}
+input
+{
+    margin: 5px;
+}
+a, a:active
+{
+    color: LightGray;
+}
+
+.YouTubePickerHolder
+{	
+    background-color: #636363;
+    color: White;
+    border: 1px solid black;
+}
+.YouTubePickerQuery
+{
+}
+.YouTubePickerSelectedUrl
+{
+    width: 440px;
+}
+
+.YouTubePickerVideoPlayer 
+{
+    width: 640px;
+    height: 363px;
+    background-color: Black;
+    margin: 10px 0;
+}
+
+.YouTubePickerVideoList
+{
+    border: 1px solid black;
+    width: 640px;
+}
+
+.YouTubePickerVideoList li 
+{
+    list-style-type: none;
+    display:block;
+    margin-bottom: 10px;
+}
+.YouTubePickerVideoList li img {
+}
+.selected, .selected a
+{
+	background: #444444;
+	color: #FFFFFF;
+}
+.YouTubePickerVideoList .VideoItem .VideoInfo .VideoNumOfViews
+{
+    margin-left: 10px;
+}
