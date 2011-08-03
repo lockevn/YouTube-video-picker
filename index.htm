@@ -2,13 +2,8 @@
 <html id="HtmlElement">
 <head>
     <meta charset="utf-8" />
-    <title >YouTube video picker js jquery plugin</title>    
-    <style type="text/css" >
-        .DemoZone
-        {
-            background-color: Aqua;
-        }
-    </style>
+    <title >YouTube video picker js jQuery plugin</title>    
+    
     <link rel="stylesheet" href="ClientResources/YouTube-video-picker.css" />
 </head>
 <body>
@@ -31,14 +26,32 @@
     <ul class="YouTubePickerVideoList"></ul>
 </div>
 
-<div id="footer">
-    <h2>Authors</h2>
-    <ul>
-        <li><strong>LockeVN</strong> at gmail dot com</li>
-        <li>Download from <a href="https://github.com/lockevn/YouTube-video-picker">GitHub</a></li>
-    </ul>
-</div>
+<h1>About</h1>
+
+<p>YouTube video picker is a jQuery plugin which provide these features:</p>
+
+<ul>
+<li>Search YouTube for video with matching keyword</li>
+<li>Display selected video in a YouTubePlayer</li>
+<li>List results in an ul list, click listitem in the <strong>playlist</strong> to select video for preview</li>
+<li>Next and previous paging for search results</li>
+<li>Customizable some options: AutoPlay, allow FullScreen button, Show num of views, ItemPerPage, ...</li>
+<li>Well structure CSS and classes</li>
+
+<li>Only bare UI, you can easily customize/change whatever UI element you want. Control using in this plugin is selected by CSS selector, so you can choose your DOM element as SearchBox, as Player ...</li>
+<li>Work with jQuery from 1.3.2 to 1.6.1 (tested)</li>
+</ul>
+<p>This is my pet project, idea base on something I did for my company plugin.</p>
+
+
+<h1>Authors</h1>
+<ul>
+    <li><strong>LockeVN</strong> at gmail dot com</li>
+    <li>Download from <a href="https://github.com/lockevn/YouTube-video-picker">GitHub</a></li>
+</ul>
+
 <div id="message"></div>
+
         
 <!--CDN-hosted files-->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -55,10 +68,10 @@
             ControlSelectedUrlHolder: '.YouTubePickerSelectedUrl',
             ControlVideoList: '.YouTubePickerVideoList',
 
+            Thumbnail: 'small',
             MaxResults: 5,
-            AddThumbs: true,
             AutoPlay: false,
-            InitVideoUrl: 'http://www.YouTube.com/watch?v=W9ias-Ys374&',
+            InitVideoUrl: 'http://www.YouTube.com/watch?v=W9ias-Ys374',
             ShowRelated: false
         });
     });
