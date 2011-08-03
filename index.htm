@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html id="HtmlElement">
+<head>
+    <meta charset="utf-8" />
+    <title >YouTube video picker js jquery plugin</title>    
+    <style type="text/css" >
+        .DemoZone
+        {
+            background-color: Aqua;
+        }
+    </style>
+    <link rel="stylesheet" href="ClientResources/YouTube-video-picker.css" />
+</head>
+<body>
+<h1>YouTube video picker jQuery plugin</h1>
+
+<div class="YouTubePickerHolder">
+    <div>
+        <label for="YouTubePickerQuery">Search YouTube for</label>
+        <input class="YouTubePickerQuery" type="text" />
+        <input class="YouTubePickerSearch" type="button" class="" value="Search" />
+        <a class="navigation prev">Previous page</a> -- <a class="navigation next">Next page</a>
+    </div>
+    <div>
+        <label for="YouTubePickerSelectedUrl">Selected video</label>
+        <input name="YouTubePickerSelectedUrl" class="YouTubePickerSelectedUrl" type="text" />        
+    </div>
+    <div>
+        <div class="YouTubePickerVideoPlayer"></div>
+    </div>
+    <ul class="YouTubePickerVideoList"></ul>
+</div>
+
+<div id="footer">
+    <h2>Authors</h2>
+    <ul>
+        <li><strong>LockeVN</strong> at gmail dot com</li>
+        <li>Download from <a href="https://github.com/lockevn/YouTube-video-picker">GitHub</a></li>
+    </ul>
+</div>
+<div id="message"></div>
+        
+<!--CDN-hosted files-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="ClientResources/jquery.YouTube-video-picker.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".YouTubePickerHolder").YouTubePicker({
+            ControlIdSuffix: '',
+
+            ControlQueryHolder: '.YouTubePickerQuery',
+            ControlSearchButton: '.YouTubePickerSearch',
+            ControlVideoPlayerHolder: '.YouTubePickerVideoPlayer',
+            ControlSelectedUrlHolder: '.YouTubePickerSelectedUrl',
+            ControlVideoList: '.YouTubePickerVideoList',
+
+            MaxResults: 5,
+            AddThumbs: true,
+            AutoPlay: false,
+            InitVideoUrl: 'http://www.YouTube.com/watch?v=W9ias-Ys374&',
+            ShowRelated: false
+        });
+    });
+</script>
+
+<script>
+    function log(s) {
+        $('#message').append(s + '<br />');
+    }
+</script>
+</body>
+</html>
