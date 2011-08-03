@@ -1,16 +1,18 @@
 # About
 
 YouTube video picker is a jQuery plugin which provide these features:
- * Search YouTube for video with matching keyword
- * Display selected video in a YouTubePlayer
- * List results in an ul list, click listitem to select video for preview
- * Next and previous paging for search results
- * Customizable some options: AutoPlay, allow FullScreen button, Show num of views, ItemPerPage, ...
- * Well structure CSS and classes
- * Only bare UI, you can easily customize/change whatever UI element you want. Control using in this plugin is selected by CSS selector, so you can choose your DOM element as SearchBox, as Player ...
- * Work with jQuery from 1.3.2 to 1.6.1 (tested)
+
+* Search YouTube for video with matching keyword
+* Display selected video in a YouTubePlayer
+* List results in an ul list, click listitem to select video for preview
+* Next and previous paging for search results
+* Customizable some options: AutoPlay, allow FullScreen button, Show num of views, ItemPerPage, ...
+* Well structure CSS and classes
+* Only bare UI, you can easily customize/change whatever UI element you want. Control using in this plugin is selected by CSS selector, so you can choose your DOM element as SearchBox, as Player ...
+* Work with jQuery from 1.3.2 to 1.6.1 (tested)
 
 This is my pet project, idea base on something I did for my company plugin.
+
 
 # Authors
 **LockeVN** at gmail dot com
