@@ -1,4 +1,4 @@
-div, ul, li
+div
 {margin:0;padding:0;}
 
 label
@@ -35,12 +35,15 @@ a, a:active
     height: 363px;
     background-color: Black;
     margin: 10px 0;
+    border: 1px solid black;
 }
 
 .YouTubePickerVideoList
 {
     border: 1px solid black;
     width: 640px;
+    padding: 0;
+    margin: 0;
 }
 
 .YouTubePickerVideoList li 
@@ -48,6 +51,7 @@ a, a:active
     list-style-type: none;
     display:block;
     margin-bottom: 10px;
+    padding: 0;
 }
 .YouTubePickerVideoList li img {
 }
