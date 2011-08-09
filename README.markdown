@@ -24,9 +24,8 @@ This is my pet project, idea base on something I did for my company plugin.
 
 
 # Credit
-* Months ago, I took a look at this plugin [https://github.com/dan0/youtubeplaylist]. It's nice, but different style of code from me. There are some similar pieces of code, *but my plugin is my own code, honestly*.
+* Months ago, I took a look at this plugin [https://github.com/dan0/youtubeplaylist]. It's nice idea, but different style of code from me. There are some similar pieces of code, *but my plugin is my own code, honestly*.
 * I use a regex from http://jquery-howto.blogspot.com/2009/05/jYouTube-jquery-YouTube-thumbnail.html
 
 # License
-//TODO
-MIT Licence?, see LICENSE file
+MIT License
